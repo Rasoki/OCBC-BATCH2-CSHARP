@@ -1,0 +1,16 @@
+D:\Oki Documents\Bootcamp\Sesi01\HelloWorld\bin\Debug\net5.0\HelloWorld.exe
+D:\Oki Documents\Bootcamp\Sesi01\HelloWorld\bin\Debug\net5.0\HelloWorld.deps.json
+D:\Oki Documents\Bootcamp\Sesi01\HelloWorld\bin\Debug\net5.0\HelloWorld.runtimeconfig.json
+D:\Oki Documents\Bootcamp\Sesi01\HelloWorld\bin\Debug\net5.0\HelloWorld.runtimeconfig.dev.json
+D:\Oki Documents\Bootcamp\Sesi01\HelloWorld\bin\Debug\net5.0\HelloWorld.dll
+D:\Oki Documents\Bootcamp\Sesi01\HelloWorld\bin\Debug\net5.0\ref\HelloWorld.dll
+D:\Oki Documents\Bootcamp\Sesi01\HelloWorld\bin\Debug\net5.0\HelloWorld.pdb
+D:\Oki Documents\Bootcamp\Sesi01\HelloWorld\obj\Debug\net5.0\HelloWorld.csproj.AssemblyReference.cache
+D:\Oki Documents\Bootcamp\Sesi01\HelloWorld\obj\Debug\net5.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+D:\Oki Documents\Bootcamp\Sesi01\HelloWorld\obj\Debug\net5.0\HelloWorld.AssemblyInfoInputs.cache
+D:\Oki Documents\Bootcamp\Sesi01\HelloWorld\obj\Debug\net5.0\HelloWorld.AssemblyInfo.cs
+D:\Oki Documents\Bootcamp\Sesi01\HelloWorld\obj\Debug\net5.0\HelloWorld.csproj.CoreCompileInputs.cache
+D:\Oki Documents\Bootcamp\Sesi01\HelloWorld\obj\Debug\net5.0\HelloWorld.dll
+D:\Oki Documents\Bootcamp\Sesi01\HelloWorld\obj\Debug\net5.0\ref\HelloWorld.dll
+D:\Oki Documents\Bootcamp\Sesi01\HelloWorld\obj\Debug\net5.0\HelloWorld.pdb
+D:\Oki Documents\Bootcamp\Sesi01\HelloWorld\obj\Debug\net5.0\HelloWorld.genruntimeconfig.cache
