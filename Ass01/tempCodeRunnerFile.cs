@@ -1,27 +1,24 @@
-string[] bilangan = {"", "one", "two", "three", "four", "five","six", "seven", "eight", "nine"};
-                string temp = "";
-                 
-                    if (x < 12)
-                    {
-                        temp = " " + bilangan[x];
-                    }
-                    else if (x < 20)
-                    {
-                        temp =  Terbilang(x / 10) + Terbilang(x % 10) ;
-                    }
-                    else if (x < 100)
-                    {
-                        temp = Terbilang(x / 10) + Terbilang(x % 10);
-                    }
-                    else if (x < 200)
-                    {
-                        temp =  Terbilang(x / 100) +  Terbilang(x % 100);
-                    }
-                    else if (x < 1000)
-                    {
-                        temp = Terbilang(x / 100) +  Terbilang(x % 100);
-                    }
-                    else if (x < 2000)
-                    {
-                        temp =  Terbilang(x - 1000);
-                    }
+Console.WriteLine("Anda memilih Segitiga Angka");
+        Console.WriteLine("");
+
+        int height;
+        
+
+        Console.Write($"enter the range : ");
+        height = int.Parse(Console.ReadLine());
+
+        for(int i=0; i <= height; i++){
+            for(int j=0; j < height - i; j++) {
+                Console.Write(" ");
+            }
+
+             for(int j=1; j < i; j++) {
+                Console.Write(j);
+            }
+
+            for(int k=i -2 ; k >= 1; k--) {
+                Console.Write(k);
+            }
+             Console.WriteLine(" ");
+        }
+        Console.WriteLine(" ");
