@@ -15,11 +15,11 @@ namespace Program1
             laptop1.memory=128;
 
             //Tampilkan
-            Console.WriteLine("\n Merk Laptop adalah {0}");
+            Console.WriteLine("\nMerk Laptop adalah ");
             laptop1.merk = Console.ReadLine();
-            Console.WriteLine("Kapasitas Ram ada {0}");
+            Console.WriteLine("Kapasitas Ram ada ");
             laptop1.ram = int.Parse(Console.ReadLine());
-            Console.WriteLine("Kapasitas Memory ada {0}");
+            Console.WriteLine("Kapasitas Memory ada ");
             laptop1.memory = int.Parse(Console.ReadLine());
 
 

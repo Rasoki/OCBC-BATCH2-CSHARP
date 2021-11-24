@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Oki Documents\\Bootcamp\\Sesi05\\Program4\\Program4.csproj": {}
+    "D:\\Oki Documents\\Bootcamp\\Sesi05\\program4\\Program4.csproj": {}
   },
   "projects": {
-    "D:\\Oki Documents\\Bootcamp\\Sesi05\\Program4\\Program4.csproj": {
+    "D:\\Oki Documents\\Bootcamp\\Sesi05\\program4\\Program4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Oki Documents\\Bootcamp\\Sesi05\\Program4\\Program4.csproj",
+        "projectUniqueName": "D:\\Oki Documents\\Bootcamp\\Sesi05\\program4\\Program4.csproj",
         "projectName": "Program4",
-        "projectPath": "D:\\Oki Documents\\Bootcamp\\Sesi05\\Program4\\Program4.csproj",
+        "projectPath": "D:\\Oki Documents\\Bootcamp\\Sesi05\\program4\\Program4.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Oki Documents\\Bootcamp\\Sesi05\\Program4\\obj\\",
+        "outputPath": "D:\\Oki Documents\\Bootcamp\\Sesi05\\program4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
