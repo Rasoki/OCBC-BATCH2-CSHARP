@@ -1,0 +1,16 @@
+D:\Oki Documents\Bootcamp\Sesi05\Program2\obj\Debug\net5.0\Program2.csproj.AssemblyReference.cache
+D:\Oki Documents\Bootcamp\Sesi05\Program2\obj\Debug\net5.0\Program2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Oki Documents\Bootcamp\Sesi05\Program2\obj\Debug\net5.0\Program2.AssemblyInfoInputs.cache
+D:\Oki Documents\Bootcamp\Sesi05\Program2\obj\Debug\net5.0\Program2.AssemblyInfo.cs
+D:\Oki Documents\Bootcamp\Sesi05\Program2\obj\Debug\net5.0\Program2.csproj.CoreCompileInputs.cache
+D:\Oki Documents\Bootcamp\Sesi05\Program2\bin\Debug\net5.0\Program2.exe
+D:\Oki Documents\Bootcamp\Sesi05\Program2\bin\Debug\net5.0\Program2.deps.json
+D:\Oki Documents\Bootcamp\Sesi05\Program2\bin\Debug\net5.0\Program2.runtimeconfig.json
+D:\Oki Documents\Bootcamp\Sesi05\Program2\bin\Debug\net5.0\Program2.runtimeconfig.dev.json
+D:\Oki Documents\Bootcamp\Sesi05\Program2\bin\Debug\net5.0\Program2.dll
+D:\Oki Documents\Bootcamp\Sesi05\Program2\bin\Debug\net5.0\ref\Program2.dll
+D:\Oki Documents\Bootcamp\Sesi05\Program2\bin\Debug\net5.0\Program2.pdb
+D:\Oki Documents\Bootcamp\Sesi05\Program2\obj\Debug\net5.0\Program2.dll
+D:\Oki Documents\Bootcamp\Sesi05\Program2\obj\Debug\net5.0\ref\Program2.dll
+D:\Oki Documents\Bootcamp\Sesi05\Program2\obj\Debug\net5.0\Program2.pdb
+D:\Oki Documents\Bootcamp\Sesi05\Program2\obj\Debug\net5.0\Program2.genruntimeconfig.cache
