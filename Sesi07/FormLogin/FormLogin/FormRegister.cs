@@ -29,7 +29,7 @@ namespace FormLogin
 
         private void button2_Click(object sender, EventArgs e)
         {
-            db.Execute("INSERT INTO user_info(names, username, password) VALUES('"+edNama.Text+"'," +" '"+edUsername.Text+"','"+edPassword+"'");
+            db.Execute("INSERT INTO user_info (names, username, password) VALUES ('" + edNama.Text + "','" + edUsername.Text + "','" + edPassword.Text + "');");
 
             this.Close();
         }
@@ -38,6 +38,16 @@ namespace FormLogin
         {
             // closses the register window
             this.Close();
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void edNama_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

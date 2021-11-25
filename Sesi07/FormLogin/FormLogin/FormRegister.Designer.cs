@@ -87,6 +87,7 @@
             this.btnLogin.TabIndex = 7;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // label4
             // 
@@ -117,6 +118,7 @@
             this.edNama.Name = "edNama";
             this.edNama.Size = new System.Drawing.Size(100, 20);
             this.edNama.TabIndex = 3;
+            this.edNama.Click += new System.EventHandler(this.edNama_Click);
             // 
             // label3
             // 
