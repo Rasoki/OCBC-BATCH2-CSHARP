@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ebb0a16e-23db-4bc9-93de-c5e0e79568c7": {
+      "ProjectGuid": "ebb0a16e-23db-4bc9-93de-c5e0e79568c7",
+      "DisplayName": "FormLogin",
+      "ColorIndex": 0
+    },
+    "677d288e-cc25-4d24-a7b6-9460e19d9bb8": {
+      "ProjectGuid": "677d288e-cc25-4d24-a7b6-9460e19d9bb8",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
