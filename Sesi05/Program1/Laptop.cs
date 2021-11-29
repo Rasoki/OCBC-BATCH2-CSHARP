@@ -2,7 +2,6 @@ using System;
 
 public class Laptop
 {
-  
         //AtributeVariable
         public string merk;
         public int ram;
@@ -23,7 +22,5 @@ public class Laptop
         {
             Console.WriteLine("\n{0} sedang online shop", this.merk);
         }
-
-
     
 }
