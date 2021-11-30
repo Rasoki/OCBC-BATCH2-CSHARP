@@ -39,7 +39,7 @@ namespace UnitTest_Mock
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "UnitTest_Mock", Version = "v1" });
             });
             #region Connection String
-            services.AddDbContext<ApiDbContext>(item => item.UseSqlite(Configuration.GetConnectionString("myconn")));
+            services.AddDbContext<ApiDbContext>(item => item.UseSqlServer(Configuration.GetConnectionString("myconn")));
             #endregion
             services.AddScoped<IEmployeeService, EmployeeService>();
         }
