@@ -1037,11 +1037,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Oki Documents\\Bootcamp\\Sesi09\\Kantor_WebAPI2\\Kantor_WebAPI2.csproj",
+      "projectUniqueName": "D:\\Oki Documents\\Bootcamp\\Tugas09\\Kantor_WebAPI2\\Kantor_WebAPI2.csproj",
       "projectName": "Kantor_WebAPI2",
-      "projectPath": "D:\\Oki Documents\\Bootcamp\\Sesi09\\Kantor_WebAPI2\\Kantor_WebAPI2.csproj",
+      "projectPath": "D:\\Oki Documents\\Bootcamp\\Tugas09\\Kantor_WebAPI2\\Kantor_WebAPI2.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\Oki Documents\\Bootcamp\\Sesi09\\Kantor_WebAPI2\\obj\\",
+      "outputPath": "D:\\Oki Documents\\Bootcamp\\Tugas09\\Kantor_WebAPI2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
