@@ -1,0 +1,7 @@
+D:\Oki Documents\Bootcamp\Sesi10\Belajar2\TodoAppWithJWT\obj\Debug\net5.0\TodoAppWithJWT.csproj.AssemblyReference.cache
+D:\Oki Documents\Bootcamp\Sesi10\Belajar2\TodoAppWithJWT\obj\Debug\net5.0\TodoAppWithJWT.GeneratedMSBuildEditorConfig.editorconfig
+D:\Oki Documents\Bootcamp\Sesi10\Belajar2\TodoAppWithJWT\obj\Debug\net5.0\TodoAppWithJWT.AssemblyInfoInputs.cache
+D:\Oki Documents\Bootcamp\Sesi10\Belajar2\TodoAppWithJWT\obj\Debug\net5.0\TodoAppWithJWT.AssemblyInfo.cs
+D:\Oki Documents\Bootcamp\Sesi10\Belajar2\TodoAppWithJWT\obj\Debug\net5.0\TodoAppWithJWT.csproj.CoreCompileInputs.cache
+D:\Oki Documents\Bootcamp\Sesi10\Belajar2\TodoAppWithJWT\obj\Debug\net5.0\TodoAppWithJWT.MvcApplicationPartsAssemblyInfo.cs
+D:\Oki Documents\Bootcamp\Sesi10\Belajar2\TodoAppWithJWT\obj\Debug\net5.0\TodoAppWithJWT.MvcApplicationPartsAssemblyInfo.cache

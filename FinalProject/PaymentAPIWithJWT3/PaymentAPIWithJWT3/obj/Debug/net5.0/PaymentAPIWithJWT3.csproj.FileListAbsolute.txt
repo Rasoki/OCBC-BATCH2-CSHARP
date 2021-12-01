@@ -1,0 +1,7 @@
+D:\Oki Documents\Bootcamp\FinalProject\PaymentAPIWithJWT3\PaymentAPIWithJWT3\obj\Debug\net5.0\PaymentAPIWithJWT3.csproj.AssemblyReference.cache
+D:\Oki Documents\Bootcamp\FinalProject\PaymentAPIWithJWT3\PaymentAPIWithJWT3\obj\Debug\net5.0\PaymentAPIWithJWT3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Oki Documents\Bootcamp\FinalProject\PaymentAPIWithJWT3\PaymentAPIWithJWT3\obj\Debug\net5.0\PaymentAPIWithJWT3.AssemblyInfoInputs.cache
+D:\Oki Documents\Bootcamp\FinalProject\PaymentAPIWithJWT3\PaymentAPIWithJWT3\obj\Debug\net5.0\PaymentAPIWithJWT3.AssemblyInfo.cs
+D:\Oki Documents\Bootcamp\FinalProject\PaymentAPIWithJWT3\PaymentAPIWithJWT3\obj\Debug\net5.0\PaymentAPIWithJWT3.csproj.CoreCompileInputs.cache
+D:\Oki Documents\Bootcamp\FinalProject\PaymentAPIWithJWT3\PaymentAPIWithJWT3\obj\Debug\net5.0\PaymentAPIWithJWT3.MvcApplicationPartsAssemblyInfo.cs
+D:\Oki Documents\Bootcamp\FinalProject\PaymentAPIWithJWT3\PaymentAPIWithJWT3\obj\Debug\net5.0\PaymentAPIWithJWT3.MvcApplicationPartsAssemblyInfo.cache
