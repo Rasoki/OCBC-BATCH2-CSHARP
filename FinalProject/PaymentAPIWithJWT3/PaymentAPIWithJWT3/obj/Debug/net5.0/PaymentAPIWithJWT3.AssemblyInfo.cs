@@ -10,6 +10,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("c2dbf0c6-6ce0-4463-9ef5-be8a62616770")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("PaymentAPIWithJWT3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]

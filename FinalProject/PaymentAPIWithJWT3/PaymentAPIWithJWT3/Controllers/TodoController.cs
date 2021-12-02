@@ -78,9 +78,10 @@ namespace PaymentAPIWithJWT3.Controllers
                 return NotFound();
             }
 
-            existItem.Title = item.Title;
-            existItem.Description = item.Description;
-            existItem.Done = item.Done;
+            existItem.cardName = item.cardName;
+            existItem.cardNumber = item.cardNumber;
+            existItem.expirationDate = item.expirationDate;
+            existItem.securityCode = item.securityCode;
 
             await _context.SaveChangesAsync();
 

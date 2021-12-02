@@ -12,18 +12,16 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using PaymentAPIWithJWT3.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore.Sqlite;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.EntityFrameworkCore;
 using PaymentAPIWithJWT3.Configuration;
+using PaymentAPIWithJWT3.Data;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
-
-
 
 namespace PaymentAPIWithJWT3
 {
@@ -41,7 +39,7 @@ namespace PaymentAPIWithJWT3
         {
             services.Configure<JwtConfig>(Configuration.GetSection("JwtConfig"));
             services.AddDbContext<ApiDbContext>(options =>
-                options.UseSqlite(
+                options.UseMySQL(
                     Configuration.GetConnectionString("DefaultConnection")
                 ));
             services.AddControllers();

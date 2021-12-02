@@ -1,0 +1,96 @@
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using PaymentAPI2.Data;
+using PaymentAPI2.Models;
+
+namespace PaymentAPI2.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class PaymentController : ControllerBase
+    {
+        //[Route("TestRun")]
+        //[HttpGet]
+        /*public ActionResult TestRun()
+        {
+            return Ok("success");
+        }*/
+
+        private readonly ApiDbContext _context;
+
+        public PaymentController(ApiDbContext context)
+        {
+            _context = context;
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetItems()
+        {
+            var items = await _context.Items.ToListAsync();
+            return Ok(items);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CreateItem(ItemData data)
+        {
+            if (ModelState.IsValid)
+            {
+                await _context.Items.AddAsync(data);
+                await _context.SaveChangesAsync();
+
+                return CreatedAtAction("GetItem", new { data.Id }, data);
+
+            }
+
+            return new JsonResult("Something went wrong") { StatusCode = 500 };
+        }
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetItem(int id)
+        {
+            var item = await _context.Items.FirstOrDefaultAsync(x => x.Id == id);
+
+            if (item == null)
+                return NotFound();
+
+            return Ok(item);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateItem(int id, ItemData item)
+        {
+            if (id != item.Id)
+                return BadRequest();
+
+            var existItem = await _context.Items.FirstOrDefaultAsync(x => x.Id == id);
+
+            if (existItem == null)
+                return NotFound();
+
+            existItem.cardName = item.cardName;
+            existItem.cardNumber = item.cardNumber;
+            existItem.expirationDate = item.expirationDate;
+            existItem.securityCode = item.securityCode;
+
+
+            //Implement the changes on the database level
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteItem(int id)
+        {
+            var existItem = await _context.Items.FirstOrDefaultAsync(x => x.Id == id);
+
+            if (existItem == null)
+                return NotFound();
+
+            _context.Items.Remove(existItem);
+            await _context.SaveChangesAsync();
+
+            return Ok(existItem);
+        }
+    }
+}
